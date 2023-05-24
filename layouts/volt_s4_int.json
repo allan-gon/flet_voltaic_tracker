@@ -1,0 +1,244 @@
+{
+    "ranks": [
+        {
+            "name": "Platinum",
+            "header_color": "#2FCFC2",
+            "other_color": "#B9EFEA"
+        },
+        {
+            "name": "Diamond",
+            "header_color": "#B9F2FF",
+            "other_color": "#E7FAFF"
+        },
+        {
+            "name": "Jade",
+            "header_color": "#85FA85",
+            "other_color": "#CEFDCE"
+        },
+        {
+            "name": "Master",
+            "header_color": "#EC44CA",
+            "other_color": "#F8C0ED"
+        }
+    ],
+    "types": [
+        {
+            "name": "Clicking",
+            "color": "#CC0000",
+            "subtypes": [
+                {
+                    "name": "Dynamic",
+                    "color": "#F1C232",
+                    "scenario_color": "#FFF1AA",
+                    "scenarios": [
+                        {
+                            "name": "VT Pasu Rasp Intermediate",
+                            "scores": [
+                                750,
+                                850,
+                                950,
+                                1050
+                            ]
+                        },
+                        {
+                            "name": "VT Bounceshot Intermediate",
+                            "scores": [
+                                600,
+                                700,
+                                800,
+                                900
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Static",
+                    "color": "#E06666",
+                    "scenario_color": "#EA9999",
+                    "scenarios": [
+                        {
+                            "name": "VT 1w5ts Rasp Intermediate",
+                            "scores": [
+                                1000,
+                                1100,
+                                1200,
+                                1300
+                            ]
+                        },
+                        {
+                            "name": "VT Multiclick 120 Intermediate",
+                            "scores": [
+                                1360,
+                                1460,
+                                1560,
+                                1660
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Strafe",
+                    "color": "#FC74FC",
+                    "scenario_color": "#FED0FE",
+                    "scenarios": [
+                        {
+                            "name": "VT AngleStrafe Intermediate",
+                            "scores": [
+                                740,
+                                830,
+                                920,
+                                1000
+                            ]
+                        },
+                        {
+                            "name": "VT ArcStrafe Intermediate",
+                            "scores": [
+                                660,
+                                750,
+                                850,
+                                940
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tracking",
+            "color": "#1155CC",
+            "subtypes": [
+                {
+                    "name": "Precise",
+                    "color": "#45818E",
+                    "scenario_color": "#A2C4C9",
+                    "scenarios": [
+                        {
+                            "name": "VT Smoothbot Intermediate",
+                            "scores": [
+                                3050,
+                                3450,
+                                3850,
+                                4250
+                            ]
+                        },
+                        {
+                            "name": "VT PreciseOrb Intermediate",
+                            "scores": [
+                                1650,
+                                2050,
+                                2450,
+                                2850
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reactive",
+                    "color": "#3C78D8",
+                    "scenario_color": "#A4C2F4",
+                    "scenarios": [
+                        {
+                            "name": "VT Plaza Intermediate",
+                            "scores": [
+                                2680,
+                                2980,
+                                3280,
+                                3530
+                            ]
+                        },
+                        {
+                            "name": "VT Air Intermediate",
+                            "scores": [
+                                2450,
+                                2700,
+                                2950,
+                                3200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Strafe",
+                    "color": "#FC74FC",
+                    "scenario_color": "#FED0FE",
+                    "scenarios": [
+                        {
+                            "name": "VT PatStrafe Intermediate",
+                            "scores": [
+                                2260,
+                                2620,
+                                2800,
+                                3050
+                            ]
+                        },
+                        {
+                            "name": "VT AirStrafe Intermediate",
+                            "scores": [
+                                2800,
+                                3000,
+                                3200,
+                                3400
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Switching",
+            "color": "#351C75",
+            "subtypes": [
+                {
+                    "name": "Speed",
+                    "color": "#A64D79",
+                    "scenario_color": "#D5A6BD",
+                    "scenarios": [
+                        {
+                            "name": "VT psalmTS Intermediate",
+                            "scores": [
+                                810,
+                                880,
+                                950,
+                                1020
+                            ]
+                        },
+                        {
+                            "name": "VT skyTS Intermediate",
+                            "scores": [
+                                1030,
+                                1130,
+                                1220,
+                                1300
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Evasive",
+                    "color": "#674EA7",
+                    "scenario_color": "#B4A7D6",
+                    "scenarios": [
+                        {
+                            "name": "VT evaTS Intermediate",
+                            "scores": [
+                                550,
+                                600,
+                                650,
+                                700
+                            ]
+                        },
+                        {
+                            "name": "VT bounceTS Intermediate",
+                            "scores": [
+                                630,
+                                670,
+                                710,
+                                760
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,244 @@
+{
+    "ranks": [
+        {
+            "name": "Grandmaster",
+            "header_color": "#FFD700",
+            "other_color": "#FFF1AA"
+        },
+        {
+            "name": "Nova",
+            "header_color": "#7900FF",
+            "other_color": "#C089FF"
+        },
+        {
+            "name": "Astra",
+            "header_color": "#FF2262",
+            "other_color": "#FF89AA"
+        },
+        {
+            "name": "Celestial",
+            "header_color": "#000000",
+            "other_color": "#999999"
+        }
+    ],
+    "types": [
+        {
+            "name": "Clicking",
+            "color": "#CC0000",
+            "subtypes": [
+                {
+                    "name": "Dynamic",
+                    "color": "#F1C232",
+                    "scenario_color": "#FFF1AA",
+                    "scenarios": [
+                        {
+                            "name": "VT Pasu Rasp Advanced",
+                            "scores": [
+                                940,
+                                1040,
+                                1120,
+                                1180
+                            ]
+                        },
+                        {
+                            "name": "VT Bounceshot Advanced",
+                            "scores": [
+                                800,
+                                900,
+                                1000,
+                                1080
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Static",
+                    "color": "#E06666",
+                    "scenario_color": "#EA9999",
+                    "scenarios": [
+                        {
+                            "name": "VT 1w3ts Rasp Advanced",
+                            "scores": [
+                                1280,
+                                1380,
+                                1460,
+                                1520
+                            ]
+                        },
+                        {
+                            "name": "VT Multiclick 180 Advanced",
+                            "scores": [
+                                1630,
+                                1770,
+                                1890,
+                                1950
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Strafe",
+                    "color": "#FC74FC",
+                    "scenario_color": "#FED0FE",
+                    "scenarios": [
+                        {
+                            "name": "VT AngleStrafe Advanced",
+                            "scores": [
+                                880,
+                                1020,
+                                1150,
+                                1190
+                            ]
+                        },
+                        {
+                            "name": "VT ArcStrafe Advanced",
+                            "scores": [
+                                940,
+                                1080,
+                                1150,
+                                1190
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tracking",
+            "color": "#1155CC",
+            "subtypes": [
+                {
+                    "name": "Precise",
+                    "color": "#45818E",
+                    "scenario_color": "#A2C4C9",
+                    "scenarios": [
+                        {
+                            "name": "VT Smoothbot Advanced",
+                            "scores": [
+                                3300,
+                                3600,
+                                3950,
+                                4151
+                            ]
+                        },
+                        {
+                            "name": "VT PreciseOrb Advanced",
+                            "scores": [
+                                2500,
+                                2850,
+                                3250,
+                                3362
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reactive",
+                    "color": "#3C78D8",
+                    "scenario_color": "#A4C2F4",
+                    "scenarios": [
+                        {
+                            "name": "VT Plaza Advanced",
+                            "scores": [
+                                3275,
+                                3475,
+                                3600,
+                                3705
+                            ]
+                        },
+                        {
+                            "name": "VT Air Advanced",
+                            "scores": [
+                                3000,
+                                3250,
+                                3500,
+                                3715
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Strafe",
+                    "color": "#FC74FC",
+                    "scenario_color": "#FED0FE",
+                    "scenarios": [
+                        {
+                            "name": "VT PatStrafe Advanced",
+                            "scores": [
+                                3050,
+                                3240,
+                                3400,
+                                3450
+                            ]
+                        },
+                        {
+                            "name": "VT AirStrafe Advanced",
+                            "scores": [
+                                3400,
+                                3600,
+                                3700,
+                                3800
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Switching",
+            "color": "#351C75",
+            "subtypes": [
+                {
+                    "name": "Speed",
+                    "color": "#A64D79",
+                    "scenario_color": "#D5A6BD",
+                    "scenarios": [
+                        {
+                            "name": "VT psalmTS Advanced",
+                            "scores": [
+                                1080,
+                                1160,
+                                1200,
+                                1230
+                            ]
+                        },
+                        {
+                            "name": "VT skyTS Advanced",
+                            "scores": [
+                                1300,
+                                1430,
+                                1500,
+                                1540
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Evasive",
+                    "color": "#674EA7",
+                    "scenario_color": "#B4A7D6",
+                    "scenarios": [
+                        {
+                            "name": "VT evaTS Advanced",
+                            "scores": [
+                                680,
+                                740,
+                                780,
+                                810
+                            ]
+                        },
+                        {
+                            "name": "VT bounceTS Advanced",
+                            "scores": [
+                                820,
+                                920,
+                                970,
+                                1010
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
