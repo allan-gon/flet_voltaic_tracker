@@ -14,16 +14,26 @@ from flet_core.alignment import center, center_left
 
 # my code
 from util.constants import VERTICAL
+from util.helper import get_highscores, select_color
 
 
 class VoltStyleTable(UserControl):
-    def __init__(self, path_to_file, expand=True):
+    def __init__(self, layout, expand=True):
         super().__init__()
-        with open(abspath(path_to_file)) as file:
+        with open(abspath(layout)) as file:
             schema = load(file)
 
+        self.layout = layout
         self.types = schema["types"]
         self.ranks = schema["ranks"]
+        self.highscores = dict()
+        for scen_type in self.types:
+            for sub_type in scen_type["subtypes"]:
+                for scen in sub_type["scenarios"]:
+                    # print(scen["name"])
+                    self.highscores[scen["name"]] = None
+
+        get_highscores(self.highscores)
         self.expand = expand
 
     def build(self):
@@ -113,14 +123,28 @@ class VoltStyleTable(UserControl):
                         )
                     )
                     # high score placeholder
-                    high_scores.controls.append(
-                        Container(
-                            expand=True,
-                            bgcolor="white",
-                            content=Text(color="black"),
-                            alignment=center,
+                    if self.highscores[scenario] != None:
+                        high_scores.controls.append(
+                            Container(
+                                expand=True,
+                                bgcolor=select_color(
+                                    self.layout, self.highscores[scenario], scenario
+                                ),
+                                content=Text(
+                                    value=self.highscores[scenario], color="black"
+                                ),
+                                alignment=center,
+                            )
                         )
-                    )
+                    else:
+                        high_scores.controls.append(
+                            Container(
+                                expand=True,
+                                bgcolor="white",
+                                content=Text(color="black"),
+                                alignment=center,
+                            )
+                        )
                     for idx, score in enumerate(scen_dict["scores"]):
                         benchmarks[idx].controls.append(
                             Container(
@@ -130,7 +154,6 @@ class VoltStyleTable(UserControl):
                                 alignment=center,
                             )
                         )
-                    # TODO: highscore
 
         self.table.controls.append(types)
         self.table.controls.append(sub_types)
