@@ -53,12 +53,12 @@ def main(page: Page) -> None:
                     bgcolor="#FF3030",
                 )
             )
-        # if you did found it
+        # if you did find it
         else:
             # save and show
             with open(DATA_FOLDER_PATH_FILE, "w") as file:
                 file.write(game_folder)
-            page.add(MainControl(kovaaks_folder=game_folder))
+            page.add(MainControl())
 
     page.update()
 
